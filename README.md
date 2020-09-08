@@ -1,6 +1,6 @@
 # eva-project
 
-> My great Nuxt.js project
+> Nuxt.js eva-project
 
 ## Build Setup
 
