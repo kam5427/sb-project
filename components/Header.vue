@@ -1,6 +1,6 @@
 <template>
 
-     <div class="container-fluid">
+     <div class="container-fluid header-bg">
        <div class="row" style="padding-top:30px; height: 210px;">
          <div class="col-3" style="margin-left: 120px;">
            <img src="~~/assets/svg/logo.svg" alt="">
@@ -33,6 +33,11 @@ export default {
 </script>
 
 <style>
+  .header-bg {
+    background-image: url('~assets/svg/background.svg');
+    background-repeat:no-repeat;
+    background-position: 0 0;
+  }
 
   .nav-link{
     color:white !important;

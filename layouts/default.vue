@@ -16,9 +16,5 @@
   }
 </script>
 <style>
-body {
-  background-image: url('~assets/svg/background.svg');
-  height: 970px;
-  background-repeat:no-repeat;
-}
+
 </style>
