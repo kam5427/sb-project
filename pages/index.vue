@@ -2,9 +2,9 @@
   <div class="">
     <div class="container-fluid first">
       <div class="row justify-content-md-center">
-        <div class="col-10 " >
-          <div class="row">
-            <div class="col-6 f">
+        <div class="col-lg-10 col-12" >
+          <div class="row" style="margin-top:70px;">
+            <div class="col-lg-6 col-md-4 col-12 f">
               <h1 class="h_first">
                 Онлайн-сервис
               </h1>
@@ -13,8 +13,8 @@
               </h1>
               <button type="button" class="btn btn-white btn-lg"> <h4 style="margin: 0px;">Узнать подробности</h4></button>
             </div>
-            <div class="col-6 rocket">
-              <img src="~~/assets/svg/rocket.svg" alt="">
+            <div class="col-lg-6 col-md-8 col-12  ">
+              <img src="~~/assets/svg/rocket.svg" class="rocket" alt="" width="100%" height="auto">
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@
         <div class="col-12" style="margin-top: 200px;">
           <div class="container">
             <div class="row">
-              <div class="col-5">
+              <div class="col-lg-4 col-12">
                 <h1 class="h-first mb-5">
                   Как это работает?
                 </h1>
@@ -72,8 +72,8 @@
                   задачи из реального бизнеса.</h5>
                 <h5 class="text-white">Работа в командах, личный наставник, сообщество единомышленников и полное погружение в мир профессии ждут студентов на платформе.</h5>
               </div>
-              <div class="col-6 offset-1" style="margin-top:-100px;">
-                <img src="~~/assets/svg/svg-planets.svg" style="height: 80%;" alt="">
+              <div class="col-lg-7 col-12 offset-md-1 mt-4 mt-md-0" style="margin-top:-100px;">
+                <img src="~~/assets/svg/svg-planets.svg" height="auto" width="100%">
               </div>
             </div>
           </div>
@@ -82,21 +82,21 @@
     </div>
     <div class="container-fluid four mb-5">
         <div class="row justify-content-md-center">
-          <div class="col-8">
+          <div class="col-md-8 col-12">
             <div class="lcard">
-              <div class="row m-5">
-                <div class="col-6 text-white">
-                  <p class="ml-5 mt-5">
+              <div class="row m-md-5 m-0">
+                <div class="col-md-6 col-12 text-white">
+                  <p class="ml-md-5 mt-md-5 mt-3 ml-3">
                     EVA - инструмент, задающий направление обучения студенту. Контролирует темп обучения и подстраивается под вас. Высокая эффективность обеспечивается моделью ученик - учитель.
                   </p>
-                  <button type="button" class="btn btn-white-2 btn-lg ml-5 mb-5">
+                  <button type="button" class="btn btn-white-2 btn-lg ml-md-5 ml-3 mb-5">
                   <h4 style="margin: 0px;">
                     Познакомься с EVA
                   </h4>
                   </button>
                 </div>
-                <div class="col-5">
-                  <img src="~~/assets/svg/svg-polygon.svg" alt="eva" class="eva">
+                <div class="col-lg-5 col-12">
+                  <img src="~~/assets/svg/svg-polygon.svg" class="d-none d-sm-block eva" alt="eva" >
                 </div>
               </div>
             </div>
@@ -112,14 +112,17 @@
 <style>
   .first {
     background-image: url('~assets/svg/background.svg');
-    background-position: 0 -210px;
+    background-position: 0 -93px;
     background-repeat:no-repeat;
+    margin-top: -160px;
+    height: 900px;
   }
   .f{
     margin-top: 200px;
   }
   .rocket{
-    margin-top:-40px;
+margin-top: 185px;
+
   }
   .h_first{
     color:white;
@@ -127,8 +130,8 @@
   .btn-white{
     margin-top:57px;
     background-color: white;
-    height: 80px;
-    width: 350px;
+    height: 60px;
+    width: auto;
     color:#701678;
     border-radius: 26px;
     box-shadow: 0 0 10px 2px #F85257;
@@ -141,7 +144,7 @@
   }
   .third{
     background-image: url('~assets/svg/bg2.svg');
-    height:670px ;
+    height:750px ;
     margin-top: 100px;
   }
   .h-first{
@@ -157,8 +160,8 @@
   .btn-white-2{
     margin-top:17px;
     background-color: white;
-    height: 80px;
-    width: 350px;
+    height: 60px;
+    width: auto;
     color:#701678;
     border-radius: 26px;
     box-shadow: 0 0 10px 2px #F85257;

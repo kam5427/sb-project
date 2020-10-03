@@ -28,6 +28,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/assets/main.css' 
   ],
   /*
   ** Plugins to load before mounting the App
@@ -37,12 +38,12 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-  ],
+  buildModules: [ '@nuxtjs/color-mode','@nuxtjs/svg'],
   /*
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/color-mode'
   ],
   /*
   ** Build configuration
@@ -51,7 +52,8 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend () {
     }
-  }
+  },
+  target: 'static'
 }
