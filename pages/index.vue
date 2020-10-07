@@ -2,7 +2,7 @@
   <div class="">
     <div class="container-fluid first">
       <div class="row justify-content-md-center">
-        <div class="col-lg-10 col-12" >
+        <div class="col-lg-10 col-12 fr" >
           <div class="row" style="margin-top:70px;">
             <div class="col-lg-6 col-md-4 col-12 f">
               <h1 class="h_first">
@@ -57,7 +57,7 @@
 
     <div class="container-fluid third">
       <div class="row">
-        <div class="col-12" style="margin-top: 200px;">
+        <div class="col-12" style="margin-top: 70px;">
           <div class="container">
             <div class="row">
               <div class="col-lg-4 col-12">
@@ -70,9 +70,9 @@
                   Всего 10% теории,
                   остальное практика — реальные
                   задачи из реального бизнеса.</h5>
-                <h5 class="text-white">Работа в командах, личный наставник, сообщество единомышленников и полное погружение в мир профессии ждут студентов на платформе.</h5>
+                <h5 class="text-white mb-5">Работа в командах, личный наставник, сообщество единомышленников и полное погружение в мир профессии ждут студентов на платформе.</h5>
               </div>
-              <div class="col-lg-7 col-12 offset-md-1 mt-4 mt-md-0" style="margin-top:-100px;">
+              <div class="col-lg-7 col-12 offset-md-1 mb-5 mt-4 mt-md-0" style="margin-top:-100px;">
                 <img src="~~/assets/svg/svg-planets.svg" height="auto" width="100%">
               </div>
             </div>
@@ -82,7 +82,7 @@
     </div>
     <div class="container-fluid four mb-5">
         <div class="row justify-content-md-center">
-          <div class="col-md-8 col-12">
+          <div class="col-lg-8 col-md-12 col-12">
             <div class="lcard">
               <div class="row m-md-5 m-0">
                 <div class="col-md-6 col-12 text-white">
@@ -108,8 +108,20 @@
   </div>
 
 </template>
+<script>
 
+
+
+
+</script>
 <style>
+.home-enter-active, .home-leave-active {
+  transition: opacity .5s
+}
+.home-enter, .home-leave-active {
+  opacity: 0
+}
+
   .first {
     background-image: url('~assets/svg/background.svg');
     background-position: 0 -93px;
@@ -143,8 +155,8 @@ margin-top: 185px;
     width: 338px;
   }
   .third{
-    background-image: url('~assets/svg/bg2.svg');
-    height:750px ;
+    background: linear-gradient(224.44deg, #701678 28.98%, #3D0D71 67.99%);
+    height:auto ;
     margin-top: 100px;
   }
   .h-first{
@@ -152,7 +164,8 @@ margin-top: 185px;
   }
   .lcard{
     margin-top: 100px;
-    background-image: url('~assets/svg/Rectangle-5.svg');
+    background: linear-gradient(207.62deg, #701677 16.39%, #3C0C71 66.05%);
+border-radius: 30px;
     border-radius: 15px;
     background-repeat:no-repeat;
     height: 300px;
@@ -167,10 +180,9 @@ margin-top: 185px;
     box-shadow: 0 0 10px 2px #F85257;
   }
   .eva{
-    margin-top:-210px;
-    margin-left: -50px;
-    height: 130%;
-  }
+  margin-top: -50px;
+}
+  
 </style>
 
 
