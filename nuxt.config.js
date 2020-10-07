@@ -23,13 +23,14 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: 'black' },
   /*
   ** Global CSS
   */
   css: [
     '@/assets/main.css' 
   ],
+  transition: 'bounce' ,
   /*
   ** Plugins to load before mounting the App
   */
@@ -42,6 +43,7 @@ export default {
   /*
   ** Nuxt.js modules
   */
+ 
   modules: [
     '@nuxtjs/color-mode'
   ],

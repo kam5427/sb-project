@@ -78,7 +78,9 @@ export default {
 </script>
 
 <style>
-
+.eva{
+  margin-top: -50px;
+}
 
 .perekl{
   
